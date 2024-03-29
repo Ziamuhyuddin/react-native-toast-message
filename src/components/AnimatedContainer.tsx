@@ -131,7 +131,7 @@ export function AnimatedContainer({
       // This container View is never the target of touch events but its subviews can be.
       // By doing this, tapping buttons behind the Toast is allowed
       pointerEvents={isVisible ? 'box-none' : 'none'}
-      {...panResponder.panHandlers}>
+      >
       {children}
     </Animated.View>
   );
